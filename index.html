@@ -9,12 +9,13 @@
 <body>
     <div class="content">
         <p>This is an app to convert temperatures.</p>
-        <div class="tempInput"><input type="text" placeholder="Temperature"> degrees <select name="temperatures" id="temperatures">
-            <option value="celcius">Celcius</option>
-            <option value="farenheit">Farenheit</option>
+        <div class="tempInput"><input type="number" placeholder="Temperature" id="tempInput"></div> degrees 
+            <select name="tempScaleList" id="tempScaleList">
+                <option value="celcius">Celcius</option>
+                <option value="farenheit">Farenheit</option>
             </select>
-            <button id="convertBtn">Convert</button>
-        <div class="result"><p>The result will print here.</p></div>
+                    <button id="convertBtn">Convert</button>
+        <div id="result"></div>
     </div>
 </body>
 <script src="script.js"></script>
