@@ -5,6 +5,17 @@
 
 .content {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tempScale {
+    display: flex;
     flex-direction: row;
-    padding: 1rem;
+}
+
+.convertBtn {
+    display: flex;
+    flex-direction: row;
 }
