@@ -11,13 +11,13 @@ function convertTemp() {
 
     const p = document.createElement('p');
 
-    p.textContent = temperature + " degrees Celcius is " + celciusConvertedTemp + " degrees Farenheit."
+    p.textContent = `${temperature} degrees Celcius is ${celciusConvertedTemp} degrees Farenheit.`
     result.appendChild(p);
         } else {
         let farenConvertedTemp = (temperature - 32) * 5/9;
 
         const p = document.createElement('p');
-        p.textContent = temperature + " degrees Farenheit is " + farenConvertedTemp + " degrees Celcius."
+        p.textContent = `${temperature} degrees Farenheit is ${farenConvertedTemp} degrees Celcius.`
         result.appendChild(p);
         }
     }
