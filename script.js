@@ -10,9 +10,10 @@ function convertTemp() {
         let celciusConvertedTemp = (temperature * (9/5)) + 32;
 
     const p = document.createElement('p');
+
     p.textContent = temperature + " degrees Celcius is " + celciusConvertedTemp + " degrees Farenheit."
     result.appendChild(p);
-    } else {
+        } else {
         let farenConvertedTemp = (temperature - 32) * 5/9;
 
         const p = document.createElement('p');
