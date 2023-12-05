@@ -7,17 +7,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="content">
-        <div class="h1"><h1>Temperature Calculator</h1></div>
-            <div class="tempInput">Enter temperature here:<input type="number" id="tempInput"></div> 
-                <div class="tempScale"><p>Select Temperature Scale:</p>    
+    <div id="content">
+        <div class="container" id="h1"><h1>Temperature Calculator</h1></div>
+            <div class="container" id="input">Enter temperature here:<input type="number" id="tempInput"></div> 
+                <div class="container" id="tempScale"><p>Select Temperature Scale:</p>    
                     <select name="tempScaleList" id="tempScaleList">
                         <option value="celcius">Celcius</option>
                         <option value="farenheit">Farenheit</option>
                     </select>
                 </div>
-                    <div class="convertBtn"><button id="convertBtn">Convert</button></div>
-                        <div id="result"></div>
+                    <div class="container" id="convertBtn"><button id="convertBtn">Convert</button></div>
+                        <div class="container" id="result"></div>
     </div>
 </body>
 <script src="script.js"></script>
