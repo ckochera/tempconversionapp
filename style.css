@@ -1,21 +1,17 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-.content {
+#content {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    max-width: 100vh;
 }
 
-.tempScale {
+.container {
     display: flex;
-    flex-direction: row;
-}
-
-.convertBtn {
-    display: flex;
-    flex-direction: row;
 }
