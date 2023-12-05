@@ -10,18 +10,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="content">
-        <div class="container" id="h1"><h1>Temperature Calculator</h1></div>
-            <div class="container" id="input">Enter temperature here:<input type="number" id="tempInput"></div> 
-                <div class="container" id="tempScale"><p>Select Temperature Scale:</p>    
-                    <select name="tempScaleList" id="tempScaleList">
-                        <option value="celcius">Celcius</option>
-                        <option value="farenheit">Farenheit</option>
-                    </select>
-                </div>
-                    <div class="container" id="convertBtn"><button id="convertBtn">Convert</button></div>
-                        <div class="container" id="result"></div>
-    </div>
+    <div id="calculator">
+        <div id="content">
+            <div class="container" id="h1"><h1>Temperature Calculator</h1></div>
+                <div class="container" id="input">Temperature:<input type="number" max="500" id="tempInput"></div> 
+                    <div class="container" id="tempScale"><p>Scale:</p>    
+                        <select name="tempScaleList" id="tempScaleList">
+                            <option value="celcius">Celcius</option>
+                            <option value="farenheit">Farenheit</option>
+                        </select>
+                    </div>
+                        <div class="container" id="convert"><button id="convertBtn">Convert</button></div>
+                            <div class="container" id="result"></div>
+        </div>
+    </div>  
 </body>
 <script src="script.js"></script>
 </html>
